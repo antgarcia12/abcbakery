@@ -1,0 +1,10 @@
+.bottomFooter {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #f2e2ba;
+    border-top: 1px solid #8F8F8F;
+}
+
+.footerText{
+    text-align: center;
+}

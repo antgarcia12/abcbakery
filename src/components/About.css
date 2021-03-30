@@ -1,0 +1,31 @@
+.foodCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #BAD7F2;
+}
+
+.card1 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+    padding: 2px 16px;
+  }
+
+.pastry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.description {
+    margin: 0 0 15px;
+    height: 305px;
+    width: 160px;
+    text-align: center;
+}

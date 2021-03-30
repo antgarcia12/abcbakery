@@ -1,0 +1,24 @@
+/* .homeNav {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+*/
+
+.subNav {
+    background-color: #F2BAC9 !important;
+}
+
+.links {
+    margin-right: 2rem;
+}
+
+/*
+.home {
+    padding-left: 2rem;
+}
+*/
+
+.navbar-toggler {
+    width: 100%;
+    margin-left: 280px;
+} 

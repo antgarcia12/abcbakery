@@ -1,0 +1,29 @@
+.listContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f2e2ba;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.aboutList {
+    margin-right: 6rem;
+    padding: 1rem;
+}
+
+.hourList {
+    margin-right: 6rem;
+    padding: 1rem;
+}
+
+.contactList {
+    margin-right: 6rem;
+    padding: 1rem;
+}
+
+.miniLogo {
+    height: 100px;
+    width: 120px;
+}
