@@ -1,11 +1,13 @@
 .foodCards {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: #BAD7F2;
-}
+    font-size: 20px; /*increased font size*/
+    font-weight: 700;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(file:///C:/Users/Ant/Desktop/CC%20Projects/abcbakery/src/components/media/images/pastelegges4.png);
+  }
 
 .card1 {
     margin-top: 7rem;
@@ -24,8 +26,30 @@
 }
 
 .description {
-    margin: 0 0 15px;
-    height: 305px;
+    margin: 0 0 15px; /*this doesnt do much*/
+    height: 305px !important;
     width: 160px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:  #fff;
 }
+
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+    .foodCards {
+      background-size: 0px ;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 1024px and up) */
+  @media only screen and (min-width: 1024px) {
+    .foodCards {
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: top left;
+    }
+  }
+

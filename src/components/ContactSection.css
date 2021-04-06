@@ -1,0 +1,26 @@
+.contactPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+.storeHours {
+    width: 350px;
+    height: 350px;
+    padding: 25px;
+    border-width: .5px;
+    border-style: solid;
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+
+.contactForm {
+    padding: 50px;
+}
+
+@media (max-width: 640px) {
+    .contactPage {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+  }

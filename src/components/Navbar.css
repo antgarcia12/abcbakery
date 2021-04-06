@@ -6,9 +6,12 @@
 
 .subNav {
     background-color: #F2BAC9 !important;
+    font-size: 20px;
+    font-weight: 700; /*increased the font size and added font weight*/
 }
 
 .links {
+    padding-left: 2rem;
     margin-right: 2rem;
 }
 

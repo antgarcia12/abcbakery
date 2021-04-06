@@ -1,3 +1,11 @@
+.aoHeadings {
+    color: black !important; /*change from black*/
+}
+
+.footerLists {
+    list-style: none;
+}
+
 .listContainer {
     display: flex;
     justify-content: center;
@@ -6,6 +14,7 @@
     background-color: #f2e2ba;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    font-size: 20px;
 }
 
 .aboutList {
@@ -26,4 +35,11 @@
 .miniLogo {
     height: 100px;
     width: 120px;
+}
+.contactBrand {
+    font-size: 20px;
+}
+
+.footerText{
+    font-size: 20px;
 }

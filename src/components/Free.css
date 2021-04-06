@@ -1,0 +1,38 @@
+.freeComponent {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(file:///C:/Users/Ant/Desktop/CC%20Projects/abcbakery/src/components/media/images/bakingImg.jpg);
+    background-position: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.sugarCard {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: #F5F5F5  !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 !important;
+}
+
+.fDescription {
+    color: #F5F5F5;
+    text-decoration: none;
+    margin: 10px 0;
+    text-indent: 50px;
+    width: 60%;
+    text-align: justify;
+    font-size: 19px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    line-height: 5.0;
+    padding-bottom: 7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}

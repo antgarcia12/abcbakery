@@ -9,8 +9,8 @@ class Footer extends React.Component {
         return (
             <div className="listContainer">
                 <div className="aboutList">
-                    <h5>About ABC</h5>
-                    <ul>
+                    <h5 className="aoHeadings">About ABC</h5>
+                    <ul className="footerLists">
                         <li>Cake Flavors and Pricing</li>
                         <li>Cookie Flavors</li>
                         <li>Gluten Free</li>
@@ -20,8 +20,8 @@ class Footer extends React.Component {
                     </ul>
                 </div>
                 <div className="hourList">
-                    <h5>Operating Hours</h5>
-                    <ul>
+                    <h5 className="aoHeadings">Operating Hours</h5>
+                    <ul className="footerLists">
                         <li> Mon - Sat 7:00am - 6:00pm</li>
                         <li>Sunday: 9:00am - 3:00pm</li>
                     </ul>
@@ -30,7 +30,7 @@ class Footer extends React.Component {
                 </div>
                 <div className="contactList">
                     <img className="miniLogo" src={FooterImage}></img>
-                    <ul>
+                    <ul className="footerLists">
                         <li>ABC Cake Shop & Bakery</li>
                         <li>1830 San Pedro Dr NE</li>
                         <li>Albuquerque, NM 87110</li>

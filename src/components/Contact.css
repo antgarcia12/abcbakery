@@ -1,3 +1,11 @@
+.contactInfo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black !important;
+    font-weight: 700;
+}
+
 .contactBrand {
     padding-top: 2rem;
     padding-bottom: 2rem;
