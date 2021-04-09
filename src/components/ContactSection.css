@@ -2,8 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 4rem;
 }
+
+.bakeryHeading {
+    font-family: 'Kaushan Script', cursive; 
+    letter-spacing: .17rem;
+}
+
 .storeHours {
     width: 350px;
     height: 350px;
@@ -16,6 +22,12 @@
 
 .contactForm {
     padding: 50px;
+}
+
+.messageHeading {
+    padding: 2rem;
+    font-family: 'Kaushan Script', cursive; 
+    letter-spacing: .17rem;
 }
 
 @media (max-width: 640px) {

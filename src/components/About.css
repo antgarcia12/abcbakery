@@ -1,17 +1,26 @@
+.firstSection {
+  background-image: linear-gradient( rgba(235, 134, 188, 0.301), rgba(0, 0, 0, 0.5) ), url(file:///C:/Users/Ant/Desktop/CC%20Projects/abcbakery/src/components/media/images/pastelegges4.png);
+}
+
+.weAre {
+  padding-top: 4rem;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  color: #fff;
+  letter-spacing: .8rem;
+}
+
 .foodCards {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #BAD7F2;
     font-size: 20px; /*increased font size*/
     font-weight: 700;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(file:///C:/Users/Ant/Desktop/CC%20Projects/abcbakery/src/components/media/images/pastelegges4.png);
   }
 
 .card1 {
     margin-top: 7rem;
-    margin-bottom: 7rem;
     margin-right: 7rem;
     margin-left: 7rem;
     padding: 2px 16px;
@@ -28,7 +37,7 @@
 .description {
     margin: 0 0 15px; /*this doesnt do much*/
     height: 305px !important;
-    width: 160px;
+    width: 360px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color:  #fff;
@@ -36,17 +45,17 @@
 
 
 /* Small devices (portrait tablets and large phones, 640px and up) */
-@media only screen and (min-width: 640px) {
-    .foodCards {
-      background-size: 0px ;
+
+ @media only screen and (min-width: 640px) and (max-width: 1023px) {
+    .firstSection {
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: center center;
     }
   }
   
   /* Large devices (laptops/desktops, 1024px and up) */
   @media only screen and (min-width: 1024px) {
-    .foodCards {
+    .firstSection {
       background-size: auto;
       background-repeat: no-repeat;
       background-position: top left;

@@ -1,10 +1,14 @@
 .bottomFooter {
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
     padding-bottom: 1rem;
     padding-top: 1rem;
-    background-color: #f2e2ba;
+    background-color: #d9ceb2;
     border-top: 1px solid #8F8F8F;
 }
 
 .footerText{
     text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900 !important;
 }

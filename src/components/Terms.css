@@ -1,0 +1,19 @@
+.importantHeading {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.termsPage {
+    padding: 10rem;
+    display: flex;
+    font-size: 20px;
+}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+
+@media only screen and (max-width: 640px) { 
+    .termsPage {
+        padding: 3rem;
+    }
+  }
+  

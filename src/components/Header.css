@@ -1,5 +1,6 @@
 .headerBar {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(file:///C:/Users/Ant/Desktop/CC%20Projects/abcbakery/src/components/media/images/marble.jpg) !important;
+background-color: #d9ceb2;
+background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
     
 }
 

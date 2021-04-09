@@ -7,7 +7,7 @@ const ContactSection = (props) => {
     return (
         <div className="contactPage">
             <div className="storeHours">
-                <h3>Bakerty Hours</h3>
+                <h3 className="bakeryHeading">Bakery Hours</h3>
                 <p>Monday-Sunday</p>
                 <p>7AM-6PM</p>
                 <p>Sunday</p>
@@ -17,6 +17,7 @@ const ContactSection = (props) => {
                 <h4>505-255-5080</h4>
             </div>
             <div className="contactForm">
+                <h2 className="messageHeading">Request Form</h2>
                 <Form>
                     <Row form>
                         <Col md={6}>

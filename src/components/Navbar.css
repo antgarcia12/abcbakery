@@ -6,8 +6,11 @@
 
 .subNav {
     background-color: #F2BAC9 !important;
+    letter-spacing: .10rem;
     font-size: 20px;
-    font-weight: 700; /*increased the font size and added font weight*/
+    font-family: 'Montserrat', sans-serif;
+    color: black !important;
+    font-weight: 900 !important; /*increased the font size and added font weight*/
 }
 
 .links {

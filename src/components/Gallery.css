@@ -1,0 +1,44 @@
+.galleryHeading {
+  font-family: 'Kaushan Script', cursive;
+  padding: 1rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+.rowGallery {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .columnGallery {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .columnGallery img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .columnGallery {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnGallery {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

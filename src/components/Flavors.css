@@ -1,0 +1,14 @@
+.flavorHeadings {
+    font-weight: 800;
+}
+
+.wcmyFlavors {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 !important;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

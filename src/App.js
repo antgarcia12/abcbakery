@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import { HashRouter, Route, Switch } from 'react-router-dom';
+import { TinyButton as ScrollUpButton } from "react-scroll-up-button";
 
-import AboutUs from './components/AboutUs';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
@@ -35,6 +35,9 @@ function App() {
         <Contact />
         <Footer />
         <Other />
+        <ScrollUpButton
+          ContainerClassName="AnyClassForContainer"
+        />
       </div>
     </HashRouter>
   );

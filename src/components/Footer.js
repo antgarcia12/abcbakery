@@ -2,6 +2,7 @@ import React from 'react';
 import FooterImage from './media/images/abcLogo.png';
 
 
+
 import './Footer.css';
 
 class Footer extends React.Component {
@@ -20,13 +21,13 @@ class Footer extends React.Component {
                     </ul>
                 </div>
                 <div className="hourList">
-                    <h5 className="aoHeadings">Operating Hours</h5>
+                    <h5 className="ohHeadings">Operating Hours</h5>
                     <ul className="footerLists">
                         <li> Mon - Sat 7:00am - 6:00pm</li>
                         <li>Sunday: 9:00am - 3:00pm</li>
                     </ul>
 
-                    <p>We Deliver Statewide</p>
+                    <p id="deliver">We Deliver Statewide</p>
                 </div>
                 <div className="contactList">
                     <img className="miniLogo" src={FooterImage}></img>

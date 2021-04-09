@@ -1,5 +1,16 @@
 .aoHeadings {
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: .15rem;
     color: black !important; /*change from black*/
+    padding-right: 3rem;
+    font-weight: 500 !important;
+}
+
+.ohHeadings {
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: .15rem;
+    color: black !important;
+    font-weight: 500 !important;
 }
 
 .footerLists {
@@ -7,34 +18,51 @@
 }
 
 .listContainer {
+    background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #f2e2ba;
+    background-color: #d9ceb2;
     padding-top: 3rem;
     padding-bottom: 3rem;
     font-size: 20px;
+    padding-left: 1rem;
 }
 
 .aboutList {
     margin-right: 6rem;
     padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .hourList {
     margin-right: 6rem;
     padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+#deliver {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .contactList {
     margin-right: 6rem;
     padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .miniLogo {
-    height: 100px;
-    width: 120px;
+    padding-left: 2rem;
+    height: 140px;
+    width: 180px;
+    padding-bottom: 2rem;
 }
 .contactBrand {
     font-size: 20px;

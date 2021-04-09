@@ -8,7 +8,7 @@ class littleFooter extends React.Component {
         return (
             <div className="bottomFooter">
                 <footer className="lastSection">
-                    <p className="footerText ">Copyright © 2020 ABC Cake Shop & Bakery. All Rights Reserved</p>
+                    <p className="footerText">Copyright © 2020 ABC Cake Shop & Bakery. All Rights Reserved</p>
                 </footer>
             </div>
         )
